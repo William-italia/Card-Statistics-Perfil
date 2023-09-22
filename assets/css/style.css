@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background: #000;
+    height: 550px;
+    width: 420px;
+}
+
+.card img {
+    position: absolute;
+    right: -30px;
+    
+    border: 6px solid greenyellow;
+    border-radius: 100%;
+    width: 320px;
+    height: 330px;
+}
