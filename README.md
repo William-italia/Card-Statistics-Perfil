@@ -1,5 +1,5 @@
 # Card-Statistics-Perfil
 
- ![imagem](./card.png);
+ ![imagem](./card.png)
 
  
