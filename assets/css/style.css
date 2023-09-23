@@ -41,8 +41,37 @@ body {
     background: linear-gradient(30deg, rgba(26, 25, 25, 0.426) 40%, rgba(26, 25, 25, 0.437) 35%, rgba(255,255,255,0) 100%);
     opacity: 1;
     z-index: 2;
-
 }
+
+.card::before {
+    position: absolute;
+    content: '';
+    top: -30PX;
+    left: 0;
+    background:  rgba(47, 255, 151, 0.693);
+    filter: blur(20px);
+    width: 20px;
+    height: 700px;
+    rotate: 20deg;
+    animation: shine 2s infinite;
+    /* z-index: 1; */
+    z-index: 4;
+}
+
+
+@keyframes shine {
+    0% {
+        left: -200px;
+    }
+    50% {
+        left: 134%;
+    }
+    100% {
+        left: 134%;
+    }
+}
+
+
 
 .card img.fenix {
     position: absolute;
