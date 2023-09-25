@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
+    /* --primary-color: rgb(255, 137, 47); */
+    /* --shine-color: rgba(255, 137, 47, 0.693); */
     --primary-color: rgb(47, 255, 151);
+    --shine-color: rgba(47, 255, 151, 0.693);
 }
 
 * {
@@ -48,7 +51,7 @@ body {
     content: '';
     top: -30PX;
     left: 0;
-    background:  rgba(47, 255, 151, 0.693);
+    background:  var(--shine-color);
     filter: blur(20px);
     width: 20px;
     height: 700px;
@@ -77,7 +80,7 @@ body {
     position: absolute;
     right: -80px;
     top: 100px;
-    border: 10px solid rgb(47, 255, 151);
+    border: 10px solid var(--primary-color);
     border-radius: 100%;
     width: 380px;
     height: 360px;
@@ -99,7 +102,7 @@ body {
     height: 50px;
     border-radius: 100%;
     margin-right: 20px;
-    border: 2px solid rgb(47, 255, 151);
+    border: 2px solid var(--primary-color);
 }
 
 .statistics {
